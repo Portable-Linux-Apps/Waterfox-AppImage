@@ -1,7 +1,7 @@
-# IceCat-AppImage 🐧
+# Waterfox-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/Portable-Linux-Apps/IceCat-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/Portable-Linux-Apps/IceCat-AppImage/releases/latest)
-[![CI Build Status](https://github.com//Portable-Linux-Apps/IceCat-AppImage/actions/workflows/blank.yml/badge.svg)](https://github.com/Portable-Linux-Apps/IceCat-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/Portable-Linux-Apps/Waterfox-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/latest)
+[![CI Build Status](https://github.com//Portable-Linux-Apps/Waterfox-AppImage/actions/workflows/blank.yml/badge.svg)](https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/latest)
 
 This repo takes the [official Waterfox binaries](https://www.waterfox.net/download/) and turns them into an AppImage. 
 
