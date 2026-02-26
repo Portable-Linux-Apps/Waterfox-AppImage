@@ -7,7 +7,7 @@ APPIMAGETOOL="https://github.com/pkgforge-dev/appimagetool-uruntime/releases/dow
 UPINFO="gh-releases-zsync|$(echo $GITHUB_REPOSITORY | tr '/' '|')|latest|*$ARCH.AppImage.zsync"
 export URUNTIME_PRELOAD=1 # really needed here
 
-tarball_url="https://cdn1.waterfox.net/waterfox/releases/latest/linux"
+tarball_url="$(wget https://www.waterfox.com/download/ -O - | sed 's/[()",{} ]/\n/g' | grep -o "https.*Linux.*${ARCH}.*bz2")"
 wget "$tarball_url" -O ./package.tar.bz2
 tar xvf ./package.tar.bz2
 rm -f ./package.tar.bz2
